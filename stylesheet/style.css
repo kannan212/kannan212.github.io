@@ -1236,7 +1236,35 @@ ul.box-account li.sign-in:before {
 	background-color: #f1a619;
 	border-color: #f1a619;
 }
+/* sponsor logo css */
+.sponsor-logos{
+            padding: 5% 10%;
+        }
 
+        .logo-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            column-gap: 7%;
+            row-gap: 10vh;
+        }
+
+        .logo-item{
+            flex-basis: center;
+            align-self: center;
+            /* height: 166px;
+            width: 247px;  */
+            /* background-color: black; */
+        }
+
+
+        @media only screen and (max-width: 450px){
+            .logo-item{
+                width: 144px;
+                height: 144px;
+            }
+        }
 /* Footer Bottom */
 .footer-bottom .container .row:before {
 	content: '';
